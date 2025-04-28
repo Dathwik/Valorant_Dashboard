@@ -17,6 +17,28 @@ This dashboard pulls your match history and performance stats, presenting it in 
 
 ---
 
+## Dashboard Preview
+
+Here is a quick preview of the application in action:
+
+### Player Profile Input
+
+![Player Input](assets/player_input.png)
+
+---
+
+### Player Card
+
+![Player Card](assets/player_card.png)
+
+---
+
+### Statistical Information & Summary
+
+![Stats](assets/stats.png)
+
+---
+
 ## Tech Stack
 
 - Python
@@ -31,39 +53,47 @@ This dashboard pulls your match history and performance stats, presenting it in 
 
 1. Clone the repository:
 
-  git clone https://github.com/YourUsername/Valorant_Analyzer.git
-
-  cd Valorant_Analyzer
+    ```bash
+    git clone https://github.com/YourUsername/Valorant_Analyzer.git
+    cd Valorant_Analyzer
+    ```
 
 2. Install the dependencies:
 
-  pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. Create a .env file and add your HenrikDev API key:
 
-  API_KEY=your_henrikdev_api_key_here
+    ```
+    API_KEY=your_henrikdev_api_key_here
+    ```
 
 4. Run the application:
 
-  streamlit run Valorant_Analyzer.py
+    ```bash
+    streamlit run Valorant_Analyzer.py
+    ```
+
+---
 
 ## Future Improvements
 
-Add match-by-match deep analysis
+- Add match-by-match deep analysis
+- Add agent performance summaries
+- Add win streak detection and statistics
+- Add historical tracking for long-term trends
 
-Add agent performance summaries
-
-Add win streak detection and statistics
-
-Add historical tracking for long-term trends
+---
 
 ## Important Notes
 
-API key is kept hidden using a .env file (already configured in .gitignore).
+- API key is kept hidden using a .env file (already configured in .gitignore).
+- Data is retrieved using HenrikDev Valorant API for educational purposes.
+- Make sure to check API usage limits and terms.
 
-Data is retrieved using HenrikDev Valorant API for educational purposes.
-
-Make sure to check API usage limits and terms.
+---
 
 ## Author
 
