@@ -31,20 +31,21 @@ This dashboard pulls your match history and performance stats, presenting it in 
 
 1. Clone the repository:
 
-git clone https://github.com/YourUsername/Valorant_Analyzer.git
-cd Valorant_Analyzer
+  git clone https://github.com/YourUsername/Valorant_Analyzer.git
+
+  cd Valorant_Analyzer
 
 2. Install the dependencies:
 
-Pip install -r requirements.txt
+  pip install -r requirements.txt
 
 3. Create a .env file and add your HenrikDev API key:
 
-API_KEY=your_henrikdev_api_key_here
+  API_KEY=your_henrikdev_api_key_here
 
 4. Run the application:
 
-streamlit run Valorant_Analyzer.py
+  streamlit run Valorant_Analyzer.py
 
 ## Future Improvements
 
